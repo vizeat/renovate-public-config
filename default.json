@@ -3,7 +3,8 @@
   "name": "renovate-public-config-eatwith",
   "version": "0.0.1",
   "extends": [
-    "config:base"
+    "config:base",
+    "group:allNonMajor"
   ],
   "rangeStrategy": "replace",
   "schedule": ["before 9am on Monday"],
