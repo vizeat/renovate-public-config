@@ -4,11 +4,14 @@
   "version": "0.0.1",
   "extends": [
     "config:base",
+    "group:definitelyTyped",
     "group:allNonMajor"
   ],
   "rangeStrategy": "replace",
   "schedule": ["before 9am on Monday"],
   "timezone": "Europe/Paris",
   "dependencyDashboard": true,
-  "stabilityDays": 3
+  "stabilityDays": 3,
+  "prConcurrentLimit": 10,
+  "rebaseWhen": "never"
 }
